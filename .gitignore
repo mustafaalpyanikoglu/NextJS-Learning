@@ -2,6 +2,7 @@
 
 # dependencies
 /hello-world/node_modules/
+/routing-demo/node_modules/
 
 /hello-world/.pnp
 /hello-world/.pnp.js
