@@ -7,12 +7,16 @@
 /hello-world/.pnp
 /hello-world/.pnp.js
 /hello-world/.yarn/install-state.gz
+/routing-demo/.pnp
+/routing-demo/.pnp.js
+/routing-demo/.yarn/install-state.gz
 
 # testing
 /hello-world/coverage
 
 # next.js
 /hello-world/.next/
+/routing-demo/.next/
 /out/
 
 # production
