@@ -1,4 +1,4 @@
-// File: C:\Users\malpy\Desktop\NextJS-Course\routing-demo\src\app\products\[productId]\layout.tsx
+// File: C:\Users\malpy\Desktop\NextJS-Learning\routing-demo\src\app\products\[productId]\layout.tsx
 import * as entry from '../../../../../src/app/products/[productId]/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
