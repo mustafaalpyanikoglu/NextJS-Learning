@@ -1,29 +1,9 @@
 {
   "pages": {
-    "/products/[productId]/reviews/[reviewId]/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/products/[productId]/reviews/[reviewId]/page.js"
-    ],
-    "/products/[productId]/reviews/[reviewId]/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/products/[productId]/reviews/[reviewId]/error.js"
-    ],
-    "/products/[productId]/reviews/[reviewId]/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/products/[productId]/reviews/[reviewId]/not-found.js"
-    ],
-    "/products/[productId]/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/products/[productId]/layout.js"
-    ],
-    "/products/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/products/error.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -34,6 +14,32 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
+    ],
+    "/photo-feed/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/photo-feed/page.js"
+    ],
+    "/photo-feed/@modal/default": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/photo-feed/@modal/default.js"
+    ],
+    "/photo-feed/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-src_app_photo-feed_style_css.css",
+      "static/chunks/app/photo-feed/layout.js"
+    ],
+    "/photo-feed/@modal/(..)photo-feed/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/photo-feed/@modal/(..)photo-feed/[id]/page.js"
+    ],
+    "/photo-feed/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/photo-feed/[id]/page.js"
     ]
   }
 }

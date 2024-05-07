@@ -1,1 +1,1 @@
-self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST="[]"
+self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST="[{\"source\":\"/photo-feed/:id\",\"destination\":\"/photo-feed/(..)photo-feed/:id\",\"has\":[{\"type\":\"header\",\"key\":\"Next-Url\",\"value\":\"\\\\/photo-feed(?:\\\\/(.*))?[\\\\/#\\\\?]?\"}]}]"

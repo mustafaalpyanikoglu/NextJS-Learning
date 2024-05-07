@@ -1,3 +1,6 @@
 {
-  "/products/[productId]/reviews/[reviewId]/page": "app/products/[productId]/reviews/[reviewId]/page.js"
+  "/page": "app/page.js",
+  "/photo-feed/page": "app/photo-feed/page.js",
+  "/photo-feed/@modal/(..)photo-feed/[id]/page": "app/photo-feed/@modal/(..)photo-feed/[id]/page.js",
+  "/photo-feed/[id]/page": "app/photo-feed/[id]/page.js"
 }
